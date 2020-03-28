@@ -4,9 +4,9 @@
 nextflow.preview.dsl = 2
 
 // import subworkflows
-include {articNcovNanopolish} from './workflows/articNcovNanopolish.nf' params(params)
-include {articNcovMedaka} from './workflows/articNcovMedaka.nf' params(params)
-include {ncovIllumina} from './workflows/illuminaNcov.nf' params(params)
+include {articNcovNanopolish} from './workflows/articNcovNanopolish.nf'
+include {articNcovMedaka} from './workflows/articNcovMedaka.nf'
+include {ncovIllumina} from './workflows/illuminaNcov.nf'
 
 // main workflow
 workflow {

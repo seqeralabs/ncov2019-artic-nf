@@ -4,15 +4,15 @@
 nextflow.preview.dsl = 2
 
 // import modules
-include {articDownloadScheme} from '../modules/artic.nf' params(params)
-include {articGather} from '../modules/artic.nf' params(params)
-include {articDemultiplex} from  '../modules/artic.nf' params(params)
-include {nanopolishIndex} from  '../modules/artic.nf' params(params)
-include {articMinIONNanopolish} from  '../modules/artic.nf' params(params)
-include {articRemoveUnmappedReads} from '../modules/artic.nf' params(params)
+include {articDownloadScheme} from '../modules/artic.nf'
+include {articGather} from '../modules/artic.nf'
+include {articDemultiplex} from  '../modules/artic.nf'
+include {nanopolishIndex} from  '../modules/artic.nf'
+include {articMinIONNanopolish} from  '../modules/artic.nf'
+include {articRemoveUnmappedReads} from '../modules/artic.nf'
 
-include {collateSamples} from '../modules/upload.nf' params(params)
-include {uploadToCLIMB} from '../modules/upload.nf' params(params)
+include {collateSamples} from '../modules/upload.nf'
+include {uploadToCLIMB} from '../modules/upload.nf'
 
 
 // workflow component for artic pipeline
