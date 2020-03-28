@@ -18,7 +18,7 @@ This Nextflow pipeline automates the ARTIC network [nCoV-2019 novel coronavirus 
 $ nextflow run seqeralabs/ncov2019-artic-nf \
                --illumina \
                -process.queue={AWS_BATCH_QUEUE} \
-               -work-dir {AWS_S3_BUCKET} \
+               -work-dir {AWS_S3_BUCKET}/work \
                -profile batch
 ```
 
