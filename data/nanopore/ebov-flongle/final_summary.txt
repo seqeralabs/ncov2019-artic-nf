@@ -1,0 +1,17 @@
+instrument=MN22126
+position=
+flow_cell_id=AAQ411
+sample_id=EBOV_Amplicons_flongle
+protocol_group_id=EBOV_Amplicons_flongle
+protocol=b4857b26d8c6395578b9fb1de2b7d5018c90a411
+protocol_run_id=9efc5448-b0b4-41ae-b55b-a8ae5a6889d1
+acquisition_run_id=ca8fafe9b394e6319db2b03aa03f6dfaa5f0587e
+started=2019-08-30T16:11:00.976190+01:00
+acquisition_stopped=2019-08-30T16:39:34.534358+01:00
+processing_stopped=2019-08-30T16:39:34.534409+01:00
+basecalling_enabled=1
+sequencing_summary_file=lab-on-an-ssd_20190830_160932_AAQ411_minion_sequencing_run_EBOV_Amplicons_flongle_sequencing_summary.txt
+fast5_files_in_final_dest=49
+fast5_files_in_fallback=0
+fastq_files_in_final_dest=49
+fastq_files_in_fallback=0
