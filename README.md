@@ -16,10 +16,9 @@ This Nextflow pipeline automates the ARTIC network [nCoV-2019 novel coronavirus 
 ##### Quick Start for AWS Batch using Illumina data
 ```
 $ nextflow run seqeralabs/ncov2019-artic-nf \
-               --directory $baseDir/data/illumina/victoria \
                --illumina \
                -process.queue={AWS_BATCH_QUEUE} \
-               -work-dir {AWS_S3_BUCKET} \
+               -work-dir {AWS_S3_BUCKET}/work \
                -profile batch
 ```
 
